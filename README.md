@@ -1,8 +1,19 @@
-# React + Vite
+# Car Questionnaire Website & Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+Welcome to the Car Questionnaire Website & Visualizer! This web application allows users to search for cars, view detailed information about them, and find cars that match their preferences through a tailored questionnaire. Whether you know exactly what car you're looking for or need some guidance, the platform is designed to help you find the perfect vehicle.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Car Search**: Users can search for any car model and view detailed information including specifications, features, and images.
+- **Questionnaire**: For users unsure of what car they want, a 10-question survey is available to help match them with suitable car models based on their preferences and needs.
+- **Car Visualization**: Visual representations and images of the cars are provided to give users a better idea of the vehicle's appearance.
+
+## Technologies Used
+
+- **Frontend**: 
+  - React
+  - HTML
+  - CSS
+  - Tailwind CSS
