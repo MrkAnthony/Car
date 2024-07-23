@@ -3,14 +3,14 @@ import React, { useState, useEffect } from "react";
 const images = [
     '/Car JPEG/Stock F-150.jpg',
     '/Car JPEG/Jeep Wrangler.jpg',
-    '/Car JPEG/C7 Corvette.jpg',
+    '/Car JPEG/BlackCorvettes.jpg',
     '/Car JPEG/Lamborghini Urus.jpg',
     '/Car JPEG/Mercedes G-Wagon.jpg',
     '/Car JPEG/Pink G-Wagon.jpg',
     '/Car JPEG/Mcclaren.jpg',
-    '/Car JPEG/TRX.jpg',
-    '/Car JPEG/GT3 RS.jpeg',
-    '/Car JPEG/Old Corvette.jpg'
+    '/Car JPEG/Old Corvette.jpg',
+    '/Car JPEG/White GTR2.jpg',
+    '/Car JPEG/Mustang.jpg',
 ];
 
 function MovingImage() {
@@ -19,7 +19,7 @@ function MovingImage() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
-        }, 3000); // changes every 3 seconds
+        }, 2000); // changes every 2 seconds
 
         return () => clearInterval(interval);
     }, []);
