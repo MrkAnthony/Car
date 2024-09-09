@@ -1,18 +1,17 @@
-
-
-const backgroundSetup = () => {
-
+const Patterns = () => {
     return (
         <>
+            {/* Pattern background */}
+            <div className="
+            absolute w-full min-h-full z-10 bg-pattern bg-fixed bg-auto bg-top">
+            </div>
 
-        <div className="absolute w-full min-h-dvh opacity-[90%] bg-pattern bg-fixed bg-auto bg-top overflow-hidden" >
-        </div>
-        <div className="absolute min-h-dvh inset-0 bg-gradient-to-b from-transparent to-white overflow-hidden">
-        </div>
+            {/* Gradient overlay to blend the pattern into gray */}
+            <div className="
+            absolute inset-0 z-10 bg-gradient-to-b from-transparent via-transparent to-neutral-300 to-80%">
+            </div>
         </>
-    )
-
-
+    );
 };
 
-export default backgroundSetup;
+export default Patterns;
