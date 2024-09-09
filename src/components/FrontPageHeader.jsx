@@ -1,5 +1,4 @@
 import MovingImage from "./MovingImage.jsx";
-import Patterns from "./Patterns.jsx";
 
 const FrontPageHeader = () => {
     return(
@@ -24,7 +23,8 @@ const FrontPageHeader = () => {
         </div>
 
     </div>
-            <Patterns />
+            <div/>
+
         </>
 
     );
