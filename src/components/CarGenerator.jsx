@@ -6,7 +6,7 @@ import {carImageUrl} from "./CarImageFetcher.jsx";
 import {fetchCars} from "./CarDataFetcher.jsx";
 
     const carData = {
-        Dodge: ['Challenger', 'Charger', 'Durango', 'Journey', 'Grand Caravan', 'Ram 1500'],
+        Dodge: ['Challenger', 'Charger', 'Durango', 'Journey', 'Grand Caravan', 'Ram 1500', 'Hornet'],
         Ford: ['F-150', 'Fusion', 'Escape', 'Explorer', 'Edge', 'Mustang'],
         Chevy: ['Silverado 1500', 'Equinox', 'Traverse', 'Malibu', 'Cruze', 'Tahoe'],
         Toyota: ['Camry', 'Corolla', 'RAV4', 'Highlander', 'Sienna', 'Tacoma'],
