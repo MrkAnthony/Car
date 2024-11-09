@@ -25,7 +25,7 @@ function App() {
 
                 {/* Car of the Week */}
                 <div className="
-                w-full flex flex-col md:flex-row items-center justify-center gap-10 min-h-[100vh]">
+                w-full flex flex-col md:flex-row items-center justify-center gap-10 min-h-[130vh]">
                     <CarOfTheWeek />
                 </div>
             </div>
