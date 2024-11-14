@@ -16,7 +16,7 @@ import {supabase} from "../../supabaseClient.js";
             <span>
             <button
                 onClick={signInWithGoogle}
-                className="text-white hover:text-gray-200" // Add styling to match your header
+                className="text-white hover:text-gray-200" 
             >
                 Sign In With Google
             </button>
